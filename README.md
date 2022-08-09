@@ -3,4 +3,10 @@
     - has TMP_Text to indicate whose turn
     - Space for SKIP TURN
     - SetTurn to set if player's turn or enemy's turn.
-        - If enemy's turn, start a `Coroutine` to wait for random 3-5 seconds and set to player's turn.
+        - If enemy's turn, start a `Coroutine`, to damage and wait for random 3-5 seconds and set to player's turn.
+        - Check healths (player and enemy)
+            - Set the result
+        - Turn text based on the result (PLAYER WIN, ENEMY WIN)
+    - Attack and skip
+- Health
+    - value and text to display
