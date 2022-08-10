@@ -6,8 +6,7 @@ using TMPro;
 public class Health : MonoBehaviour
 {
     public TMP_Text healthText;
-
-    private float value;
+    public float value = 100f;
 
     public bool IsDead()
     {
@@ -20,10 +19,7 @@ public class Health : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    private void Start()
-    {
-        value = 100f;
-    }
+    // private void Start() {}
 
     // Update is called once per frame
     private void Update()
